@@ -33,8 +33,7 @@ p {
   display: grid;
   place-items: center;
   text-align: center;
-  /* background-color: var(--light-grayish-cyan); */
-  /* background-image: url(./wavey-fingerprint.svg); */
+  
 }
 
 .section {
@@ -185,13 +184,4 @@ input.tip__left__selection__button {
   font-weight: 800;
 }
 
-/*=== MEDIA ===*/
-
-@media screen and (max-width: 800px) {
-  .tip {
-    display: block;
-  }
-  .tip__right__reset {
-    margin-top: 2.5rem;
-  }
-}
+ 
